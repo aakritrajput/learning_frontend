@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-r from-black to-slate-600">
+    <div class="max-w-[1300px] min-h-[100vh] mx-auto my-6 bg-transparent  flex justify-center items-center">
+        <div class="bg-slate-300 rounded-[20px] xs:w-[80%] min-h-[100%] sm:w-[350px] sm:h-[400px] md:w-[400px] md:h-[450px] p-3 block shadow-xl">
+            <div class="w-[100%] h-[100px] bg-white rounded-[20px] shadow-md p-3" >
+                <input type="text" id="eqn"  class="p-2 w-[100%] relative h-[100%] border-none focus:outline-none placeholder:absolute placeholder:right-3 placeholder:text-gray-500 text-black text-right" placeholder="0">
+            </div>
+            <div class="my-7 grid grid-cols-2 xs:grid-cols-4 gap-4 justify-items-center">
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-red-400 shadow-gray-500 bg-red-600 text-white">AC</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-red-400 shadow-gray-500 bg-red-600 text-white">DEL</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-green-400 shadow-gray-500 bg-green-600 text-white">=</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-yellow-400 shadow-gray-500 bg-yellow-600 text-white">%</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-slate-200 shadow-gray-500 bg-white">1</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-slate-200 shadow-gray-500 bg-white">2</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-slate-200 shadow-gray-500 bg-white">3</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-yellow-400 shadow-gray-500 bg-yellow-600 text-white">+</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-slate-200 shadow-gray-500 bg-white">4</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-slate-200 shadow-gray-500 bg-white">5</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-slate-200 shadow-gray-500 bg-white">6</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-yellow-400 shadow-gray-500 bg-yellow-600 text-white">-</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-slate-200 shadow-gray-500 bg-white">7</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-slate-200 shadow-gray-500 bg-white">8</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-slate-200 shadow-gray-500 bg-white">9</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-yellow-400 shadow-gray-500 bg-yellow-600 text-white">/</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-slate-200 shadow-gray-500 bg-white">00</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-slate-200 shadow-gray-500 bg-white">0</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-slate-200 shadow-gray-500 bg-white">.</button>
+                 <button class="btn h-[35px] w-[50px] rounded-md shadow-md hover:scale-[110%] hover:bg-yellow-400 shadow-gray-500 bg-yellow-600 text-white">*</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
